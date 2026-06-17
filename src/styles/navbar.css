@@ -1,0 +1,41 @@
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 30px;
+  background:#111827;
+  position:sticky;
+  top:0;
+  z-index:100;
+  box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+.navbar h1{
+  color:#ff0000;
+  font-size:28px;
+}
+
+.navbar input{
+  width:350px;
+  padding:10px;
+  border:none;
+  border-radius:25px;
+  outline:none;
+  background:#1f2937;
+  color:white;
+}
+.logo{
+font-size:2rem;
+
+background:linear-gradient(
+90deg,
+#ff0000,
+#ff00ff,
+#00ffff
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+font-weight:800;
+}

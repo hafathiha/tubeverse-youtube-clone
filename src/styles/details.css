@@ -1,0 +1,19 @@
+.details{
+  max-width:1000px;
+  margin:auto;
+  padding:30px;
+}
+
+.details img{
+  border-radius:20px;
+  margin-bottom:20px;
+}
+
+.details h2{
+  margin-bottom:15px;
+}
+
+.details p{
+  margin-bottom:10px;
+  color:#cbd5e1;
+}
