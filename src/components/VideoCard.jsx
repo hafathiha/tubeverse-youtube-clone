@@ -12,17 +12,17 @@ function VideoCard({ video }) {
     );
 
     if (!exists) {
+  watchLater.push(video);
 
-      watchLater.push(video);
+  localStorage.setItem(
+    "watchLater",
+    JSON.stringify(watchLater)
+  );
 
-      localStorage.setItem(
-        "watchLater",
-        JSON.stringify(watchLater)
-      );
-
-      alert("Added to Watch Later");
-    }
-  };
+  alert("Added to Watch Later");
+} else {
+  alert("Already in Watch Later");
+    };
 
   return (
     <div className="video-card">
